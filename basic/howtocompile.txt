@@ -1,0 +1,6 @@
+there are to ways to compile.
+
+1) nim c helloworld.nim
+which only compiles the code and
+2) nim c -r helloworld.nim
+which compiles and tries to run it afterwards
