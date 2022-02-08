@@ -6,5 +6,5 @@ let
 
 echo float(e)      # 5.0
 echo int(f)        # 23
-echo float(e) + f  # 28.987
+echo float(e) + f  # 28.456
 echo e + int(f)    # 28
