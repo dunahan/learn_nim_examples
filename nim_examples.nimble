@@ -5,5 +5,7 @@ description   = "learning examples for nim"
 license       = "MIT"
 srcDir        = "basic"
 
+bin = @["main"]
+
 # Dependencies
 requires "nim >= 1.2.2"
