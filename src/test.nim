@@ -78,7 +78,7 @@ proc Classes(num: int): string =
       "Dragon Disciple"
     of 41:
       "Purple Dragon Knight"
-    else
+    else:
       "Unknown"
 
 echo Classes(5)   # result Monk
