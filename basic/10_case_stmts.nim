@@ -1,3 +1,41 @@
+let
+  x = 7
+
+# if statement
+if x == 5:
+  echo "Five!"
+elif x == 7:
+  echo "Seven!"
+elif x == 10:
+  echo "Ten!"
+else:
+  echo "unknown number"
+  
+# can be written as case
+case x
+of 5:
+  echo "Five!"
+of 7:
+  echo "Seven!"
+of 10:
+  echo "Ten!"
+else:
+  echo "unknown number"
+
+# the snippet from nim-basics
+let
+  h = 'y'
+
+case h
+of 'x':
+  echo "You've chosen x"
+of 'y':
+  echo "You've chosen y"
+of 'z':
+  echo "You've chosen z"
+else: discard
+
+# some other tests
 case "charlie":
   of "alfa":
     echo "A"
@@ -78,7 +116,7 @@ proc Classes(num: int): string =
       "Dragon Disciple"
     of 41:
       "Purple Dragon Knight"
-    else
+    else:
       "Unknown"
 
 echo Classes(5)   # result Monk
