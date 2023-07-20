@@ -37,4 +37,13 @@ for letter in name:
 
 
 #[Fizz buzz]#
-# tbc
+#[ Fizz buzz 
+But 5 & 3 missing yet ]#
+
+for n in countup(1, 30, 1):
+  if n mod 3 == 0:
+    echo "fizz"
+  elif n mod 5 == 0:
+    echo "buzz"
+  else:
+    echo n
