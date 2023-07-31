@@ -58,5 +58,10 @@ for n in countup(1, 30, 1):
 #[ conversion table in to cm:
 where 1 in = 2.54 cm ]#
 
-echo "in  | cm \n----------------"
-# hint countup(1, 16, 3), tbc
+echo "in  |  cm \n----------------"
+
+for n in countup(1, 19, 3):
+  if n < 10:
+    echo n, "   |  ", float(n) * 2.54
+  else:
+    echo n, "  |  ", float(n) * 2.54
